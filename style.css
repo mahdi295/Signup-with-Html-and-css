@@ -1,0 +1,61 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background:linear-gradient(135deg ,#cad4c3 ,#65d321);
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.signup{
+    background:linear-gradient(135deg,#7ce83a, #bdc7b7);
+    padding: 40px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgb(3, 82, 25);
+    transition: transform 0.3s ease;
+}
+.signup:hover {
+  transform: translatey(-6px);
+}
+h1{
+    text-align: center;
+    color: #024304;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  padding: 12px 20px;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  background-color: white;
+  color: #024304;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+button:hover{
+  background-color: darkgreen;
+  color: aliceblue;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+input{
+  width: 90%;
+  padding: 10px;
+  border:1px solid #024304;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 15px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+
